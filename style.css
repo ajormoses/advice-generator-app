@@ -80,11 +80,12 @@ body {
   bottom: -35px;
   left: 50%;
   transform: translate(-50%);
+  cursor: pointer;
 }
 
 .dice:hover {
   background: var(--Neon-Green);
-  filter: drop-shadow(0 0 15px var(--Neon-Green));
+  box-shadow: 0 0 15px var(--Neon-Green);
 }
 
 .dice svg {
